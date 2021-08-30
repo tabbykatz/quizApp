@@ -1,41 +1,40 @@
 import * as React from "react";
 
-export default function App() {
-  const reducer = (action, payload) => {
-    return {
-      ...quizState,
-      [action]: payload,
-    };
+const reducer = (currentState, action) => {
+  return {
+    ...currentState,
+    ...action,
   };
-  const initialState = {
-    currentQuestion: 0,
-    score: 0,
-    endGame: false,
-    questions: [],
-  };
+};
 
+const initialState = {
+  currentQuestion: 0,
+  score: 0,
+  endGame: false,
+  questions: [],
+};
+
+export default function App() {
   const [quizState, updateQuizState] = React.useReducer(reducer, initialState);
 
   const getQuestions = () => {
     fetch("/api/questions")
       .then((res) => res.json())
       .then((res) => {
-        updateQuizState("questions", res);
-        // console.log(quizState.questions);
+        updateQuizState({ questions: res });
       });
   };
 
   const handleAnswerOptionClick = (choice) => {
     if (choice === quizState.questions[quizState.currentQuestion].correct) {
-      updateQuizState("score", score + 1);
-      // console.log(quizState.score);
+      updateQuizState({ score: quizState.score + 1 });
     }
 
     const nextQuestion = quizState.currentQuestion + 1;
     if (nextQuestion < quizState.questions.length) {
-      updateQuizState("currentQuestion", nextQuestion);
+      updateQuizState({currentQuestion: nextQuestion});
     } else {
-      updateQuizState("endGame", true);
+      updateQuizState({endGame: true});
     }
   };
 
