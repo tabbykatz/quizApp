@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Kaisei+HarunoUmi&display=swap");
+
+:root {
+  --font-display: "Kaisei HarunoUmi", serif;
+  --font-text: "Alegreya Sans", sans-serif;
+
+  --light: rgba(123, 172, 102, 0.536);
+  --dark: rgba(49, 94, 50, 0.612);
+  --red: #a53a4e77;
+  --dark-solid: rgb(49, 94, 50);
+  --red-solid: #a53a4e;
+}
+
+* {
+  font-family: var(--font-text);
+  color: #ffffff;
+}
+
+body {
+  background-image: url("./ghibli_images/mononoke.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  background-color: var(--light);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.all div {
+  font-size: 1rem;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-family: var(--font-display);
+  display: block;
+  font-size: 30px;
+  text-align: center;
+}
+
+.question {
+  width: 100%;
+}
+
+.question-count {
+  font-family: var(--font-display);
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-family: var(--font-display);
+  margin-bottom: 12px;
+}
+
+.answer {
+  font-family: var(--font-text);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  font-family: var(--font-text);
+  font-size: 16px;
+  background-color: var(--dark);
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid var(--dark);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: var(--light);
+}
+
+button:focus {
+  outline: none;
+}

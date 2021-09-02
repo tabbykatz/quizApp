@@ -1,102 +1,122 @@
 [
   {
     "id": 1,
-    "title": "Independence Day was first established as a holiday by Congress in what year?",
-    "choices": ["1853", "1776", "1938", "1870"],
-    "correct": "1870"
+    "title": "Which film was Studio Ghibli’s first official production?",
+    "choices": [
+      "Castle in the Sky",
+      "Nausicaä of the Valley of the Wind",
+      "Grave of the Fireflies",
+      "My Neighbor Totoro"
+    ],
+    "correct": "Castle in the Sky",
+    "details": "Studio Ghibli was founded by Hayao Miyazaki, Isao Takahata and Toshio Suzuki. The studio’s first official film – and Miyazaki’s second film – Castle in the Sky was released in 1986."
   },
   {
     "id": 2,
-    "title": "Who was the First President to live in The White House?",
+    "title": "Which Studio Ghibli film was NOT directed by Hayao Miyazaki?",
     "choices": [
-      "John Adams",
-      "Thomas Jefferson",
-      "George Washington",
-      " James Madison"
+      "Grave of the Fireflies",
+      "Ponyo",
+      "The Wind Rises",
+      "Kiki's Delivery Service"
     ],
-    "correct": "John Adams"
+    "correct": "Grave of the Fireflies",
+    "details": "Grave of the Fireflies was directed by Isao Takahata."
   },
   {
     "id": 3,
-    "title": "What do the colors of the American Flag symbolize?",
+    "title": "Which Studio Ghibli character is featured in the studio’s logo?",
     "choices": [
-      "Nothing, the Founding Fathers simply found them aesthetically pleasing.",
-      "Red: hardiness, White: purity, Blue: perseverance",
-      "Red: compassion, White: peace and unity, Blue: remembrance",
-      " Red: revolution, White: stability, Blue: integrity"
+      "Jiji from Kiki's Delivery Service",
+      "Totoro from My Neighbor Totoro",
+      "Calcifer from Howl's Moving Castle",
+      "Moro from Princess Mononoke"
     ],
-    "correct": "Red: hardiness, White: purity, Blue: perseverance"
+    "correct": "Totoro from My Neighbor Totoro",
+    "details": "Studio Ghibli’s logo features Totoro from My Neighbor Totoro."
   },
   {
     "id": 4,
-    "title": "Calvin Coolidge was the only U.S. President born on The Fourth of July. Three presidents, however, died on that date. Who were they?",
+    "title": "Which author adapted the movie script for Princess Mononoke?",
     "choices": [
-      "George Washington, Chester Arthur and James Monroe",
-      "Abraham Lincoln, Thomas Jefferson and Richard Nixon",
-      "Zachary Taylor, Martin Van Buren and Warren Harding",
-      " John Adams, Thomas Jefferson and James Monroe"
+      "Haruki Murakami",
+      "Terry Pratchett",
+      "Neil Gaiman",
+      "Michael Chabon"
     ],
-    "correct": "John Adams, Thomas Jefferson and James Monroe"
+    "correct": "Neil Gaiman",
+    "details": "While his name was initially scrubbed from the film credits, Neil Gaiman wrote the English language film script for Princess Mononoke."
   },
   {
     "id": 5,
-    "title": "Where did John Philip Sousa compose \"The Stars and Stripes Forever\", the official march of the United States?",
+    "title": "Which Studio Ghibli film is based on The Little Mermaid?",
     "choices": [
-      "In an army bunker during the Civil War.",
-      "In Washington, D.C., after visiting the White House for the first time.",
-      "In his living room, after a particularly good dinner.",
-      "On a boat, en route from a European vacation with his wife."
+      "Spirited Away",
+      "Ponyo",
+      "The Secret World of Arrietty",
+      "Princess Mononoke"
     ],
-    "correct": "In an army bunker during the Civil War."
+    "correct": "Ponyo",
+    "details": "Ponyo’s script is a retelling of Hans Christian Andersen’s The Little Mermaid."
   },
   {
     "id": 6,
-    "title": "Where was the first Fourth of July celebration with a fireworks display held?",
+    "title": "Which Studio Ghibli film is based on a Diana Wynne Jones novel?",
     "choices": [
-      "Washington, D.C.",
-      "New York, New York",
-      "Boston, Massachusetts",
-      "Atlanta, Georgia"
+      "The Cat Returns",
+      "The Wind Rises",
+      "Nausicaä of the Valley of the Wind",
+      "Howl's Moving Castle"
     ],
-    "correct": "Boston, Massachusetts"
+    "correct": "Howl's Moving Castle",
+    "details": "Howl’s Moving Castle was originally a novel published in 1986 by Diana Wynne Jones."
   },
   {
     "id": 7,
-    "title": "How does the community of Seward, Alaska celebrate the Fourth of July?",
+    "title": "Which of the following Studio Ghibli films is the director’s original work?",
     "choices": [
-      "They raise over 200 flags outside the courthouse.",
-      "They host the largest picnic celebration in the United States.",
-      "They participate in a six-mile foot race to the top of Mount Marathon.",
-      "Children light thousands of candles in a Festival of Lights."
+      "The Secret World of Arietty",
+      "Tales of Earthsea",
+      "Nausicaä of the Valley of the Wind",
+      "The Tale of Princess Kaguya"
     ],
-    "correct": "They participate in a six-mile foot race to the top of Mount Marathon."
+    "correct": "Nausicaä of the Valley of the Wind",
+    "details": "Both the original manga and film versions of Nausicaä of the Valley of the Wind were developed by Hayao Miyazaki. Tales of Earthsea is based on Ursula K. Le Guin’s Tales from Earthsea, The Secret World of Arrietty is based on The Borrowers by Mary Norton, and The Tale of Princess Kaguya is based on the Tale of the Bamboo Cutter from Taketori Monogatari."
   },
   {
     "id": 8,
-    "title": "2014 marked the 200th birthday of:",
+    "title": "Which Studio Ghibli film does NOT include human-like animal characters?",
     "choices": [
-      "The Lincoln Memorial",
-      "The Smithsonian Institution",
-      "The Star-Spangled Banner",
-      "The American flag"
+      "Princess Mononoke",
+      "From Up on Poppy Hill",
+      "Porco Rosso",
+      "The Cat Returns"
     ],
-    "correct": "The Star-Spangled Banner"
+    "correct": "From Up on Poppy Hill",
+    "details": "From Up on Poppy Hill is about two human high school students trying to save their school’s dilapidated clubhouse from demolition."
   },
   {
     "id": 9,
-    "title": "Through which national park does the Continental Divide not pass?",
-    "choices": ["Yellowstone", "Rocky Mountain", "Glacier", "Yosemite"],
-    "correct": "Yosemite"
+    "title": "Which Studio Ghibli film’s protagonist is a World War I veteran?",
+    "choices": [
+      "Shun Kazama from From Up on Poppy Hill",
+      "Jiro Horikoshi from The Wind Rises",
+      "Porco Rosso from Porco Rosso",
+      "Seita from Grave of the Fireflies"
+    ],
+    "correct": "Porco Rosso from Porco Rosso",
+    "details": "Porco Rosso, the titular hero of the film, was a World War I pilot. From Up on Poppy Hill, Grave of the Fireflies and The Wind Rises all tell stories that involve World War II."
   },
   {
     "id": 10,
-    "title": "Which U.S. president was the first to appear on television?",
+    "title": "Few YouTube characters are more recognizable and beloved than ChilledCow's lofi study girl. The image is inspired by which Ghibli movie?",
     "choices": [
-      "Abraham Lincoln",
-      "Richard Nixon",
-      "Franklin D. Roosevelt",
-      "Ronald Reagan"
+      "The Cat Returns",
+      "Princess Mononoke",
+      "When Marnie Was There",
+      "Whisper of the Heart"
     ],
-    "correct": "Franklin D. Roosevelt"
+    "correct": "Whisper of the Heart",
+    "details": "The iconic YouTube figure has her origins in Whisper of the Heart's Shizuku Tsukishima, a similar-looking character who modelled the girl listeners now know and love. In fact, Shizuku was the study girl early on, up until the original GIF caused copyright concerns with a certain Studio Ghibli."
   }
 ]
